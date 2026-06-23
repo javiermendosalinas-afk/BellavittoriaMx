@@ -1,0 +1,24 @@
+BellaVittoria V3 final corregida
+
+Esta versión corrige:
+1. Amenidades: fotos y textos alineados.
+2. Modelos: ya no aparecen como miniaturas difíciles de leer; ahora hay tabla clara y links para abrir cada plano en grande.
+3. Copy final para consumidor.
+4. SEO/IA preservado con schema y FAQ.
+
+Sube y reemplaza TODO el contenido de esta carpeta en GitHub, especialmente:
+- index.html
+- style.css
+- script.js
+- robots.txt
+- sitemap.xml
+- todos los .webp
+- bv-logo.svg
+
+Commit recomendado:
+Corregir amenidades modelos y versión final comercial
+
+Después abre:
+https://javiermendosalinas-afk.github.io/BellavittoriaMx/?v=v3
+
+Presiona Ctrl + F5.

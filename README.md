@@ -8,7 +8,7 @@ Dominio principal recomendado: https://bellavittoria.mx/
 - script.js
 - robots.txt
 - sitemap.xml
-- assets/ con imágenes optimizadas WebP
+-  con imágenes optimizadas WebP
 
 ## Contactos integrados
 - CTA principal WATI: 3333777337
