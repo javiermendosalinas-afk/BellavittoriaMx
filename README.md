@@ -1,46 +1,33 @@
-# BellaVittoria Web V1
+# BellaVittoria Web V2 Premium
 
-Sitio Vibe Coding para `bellavittoria.mx`.
+Dominio principal recomendado: https://bellavittoria.mx/
 
-## Archivos
-- `index.html`
-- `style.css`
-- `script.js`
-- `/assets` con placeholders SVG premium
+## Entregables incluidos
+- index.html
+- style.css
+- script.js
+- robots.txt
+- sitemap.xml
+- assets/ con imágenes optimizadas WebP
 
-## Datos integrados
-- WhatsApp: 3333777337
+## Contactos integrados
+- CTA principal WATI: 3333777337
+- Atención directa Javier: 3344441444
 - Email: javier.mendoza@acierta.com.mx
-- Precio autorizado: desde $3,400,000 MXN
-- Estacionamiento sencillo incluido
+
+## Oferta integrada
+- Precio regular desde $3,400,000 MXN con estacionamiento sencillo incluido
 - Doble estacionamiento: +$200,000 MXN, sujeto a disponibilidad
-- Inventario: 20 disponibles de 32
-- Ubicación: Cobre 4232, Lomas de la Victoria, San Pedro Tlaquepaque, Jalisco
-- Avalúo de referencia: $3,572,000 MXN
+- Promoción cierre junio 2026: 2 departamentos del 3er nivel desde $2,950,000 MXN con 1 cajón incluido
+- Inventario: 20 de 32 unidades disponibles
 
-## Imágenes
-Los archivos SVG en `/assets` son placeholders elegantes para que el sitio funcione de inmediato.
-Para usar fotos reales, sustituye estos archivos por imágenes reales manteniendo nombres similares:
-- `fachada.svg` → `fachada.jpg`
-- `sala.svg` → `sala.jpg`
-- `cocina.svg` → `cocina.jpg`
-- `recamara.svg` → `recamara.jpg`
-- `roof.svg` → `roof.jpg`
-- `lobby.svg` → `lobby.jpg`
-- `amenidades.svg` → `amenidades.jpg`
-- `plano.svg` → `plano.jpg`
+## Publicación
+1. Subir el contenido de la carpeta `web` a Netlify, Vercel, Cloudflare Pages o hosting estático.
+2. Conectar `bellavittoria.mx`.
+3. Redireccionar `bellavittoria.vip` y `bellavittoria.com.mx` a `bellavittoria.mx`.
+4. Agregar Google Analytics 4, Tag Manager, Meta Pixel y eventos de conversión a WhatsApp.
 
-Después actualiza las referencias en `index.html`.
-
-## Publicación recomendada
-1. Subir carpeta a Netlify, Vercel o Cloudflare Pages.
-2. Conectar dominio `bellavittoria.mx`.
-3. Redireccionar:
-   - `bellavittoria.com.mx` → `bellavittoria.mx`
-   - `bellavittoria.vip` → `bellavittoria.mx`
-
-## Pendientes para versión final
-- Sustituir placeholders por fotos reales de BellaVittoria.
-- Agregar logo final en PNG/SVG.
-- Agregar Meta Pixel, Google Analytics y Google Tag Manager.
-- Conectar formulario a CRM o WhatsApp Business/WATI.
+## Validación pendiente antes de publicación formal
+- Validar texto legal con asesor jurídico/notaría/desarrollador.
+- Confirmar disponibilidad actual por unidad.
+- Validar que los planos redibujados coincidan con planos arquitectónicos oficiales.
