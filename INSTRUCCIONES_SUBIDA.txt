@@ -1,24 +1,19 @@
-BellaVittoria V3 final corregida
+# BellaVittoria V4 definitiva
 
-Esta versión corrige:
-1. Amenidades: fotos y textos alineados.
-2. Modelos: ya no aparecen como miniaturas difíciles de leer; ahora hay tabla clara y links para abrir cada plano en grande.
-3. Copy final para consumidor.
-4. SEO/IA preservado con schema y FAQ.
+Subir TODO el contenido del ZIP a la raíz del repositorio BellavittoriaMx.
 
-Sube y reemplaza TODO el contenido de esta carpeta en GitHub, especialmente:
-- index.html
-- style.css
-- script.js
-- robots.txt
-- sitemap.xml
-- todos los .webp
-- bv-logo.svg
+Correcciones incluidas:
+- Modelos sin tabla: ahora son tarjetas legibles para consumidor final.
+- Estilos críticos incluidos dentro de index.html para evitar que GitHub muestre modelos sin formato por caché de CSS.
+- Amenidades forzadas a imagen correcta:
+  - Lobby y recepción => lobby-bellavittoria.webp
+  - Roof garden => roof-garden-bellavittoria.webp
+  - Seguridad y estacionamiento => acceso-seguridad-estacionamiento-bellavittoria.webp
+- Cache busting: style.css?v=4, script.js?v=4 e imágenes ?v=4.
+- Copy final orientado a comprador, SEO e IA.
 
-Commit recomendado:
-Corregir amenidades modelos y versión final comercial
+Commit sugerido:
+V4 final sin tablas
 
-Después abre:
-https://javiermendosalinas-afk.github.io/BellavittoriaMx/?v=v3
-
-Presiona Ctrl + F5.
+Después revisar:
+https://javiermendosalinas-afk.github.io/BellavittoriaMx/?v=v4

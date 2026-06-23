@@ -24,7 +24,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="icon" href="bv-logo.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=4">
 
   <style>
     .brand-logo-text{display:inline-grid;place-items:center;width:48px;height:48px;border-radius:999px;background:#0b1426;color:#d6b46a;font-family:'Playfair Display',serif;font-weight:800;font-size:1.15rem;letter-spacing:.05em}
@@ -254,6 +254,25 @@
   ]
 }
   </script>
+
+  <style id="bv-critical-v4">
+    .brand-logo-text{display:inline-grid;place-items:center;width:48px;height:48px;border-radius:999px;background:#0b1426;color:#d6b46a;font-family:'Playfair Display',serif;font-weight:800;font-size:1.15rem;letter-spacing:.05em}
+    .model-cards-v4{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1rem;margin-top:1.5rem}
+    .model-card-v4{background:#fff;border:1px solid #e5ded2;border-radius:22px;padding:1.25rem;box-shadow:0 14px 36px rgba(13,23,40,.08);display:grid;gap:1rem}
+    .model-card-v4 h3{font-size:1.9rem;margin:.1rem 0 0;color:#0d1728}
+    .model-kicker-v4{display:inline-flex;color:#c9a45c;font-weight:900;text-transform:uppercase;letter-spacing:.14em;font-size:.72rem}
+    .model-card-v4 dl{margin:0;display:grid;gap:.55rem}
+    .model-card-v4 dl div{display:flex;justify-content:space-between;gap:1rem;border-top:1px solid #eee6da;padding-top:.55rem}
+    .model-card-v4 dt{font-weight:800;color:#6b7280}
+    .model-card-v4 dd{margin:0;font-weight:900;color:#111827;text-align:right}
+    .model-link-v4{width:100%;background:#faf7f0}
+    .model-note-v4{display:flex;justify-content:space-between;align-items:center;gap:1.5rem;margin-top:1.25rem;padding:1.25rem;border-radius:24px;background:#fff;border:1px solid #e5ded2;box-shadow:0 14px 36px rgba(13,23,40,.08)}
+    .model-note-v4 p{margin:.25rem 0 0;color:#4b5563}
+    .amenity-grid-v4 .amenity img{height:260px;object-fit:cover;object-position:center}
+    @media(max-width:980px){.model-cards-v4{grid-template-columns:repeat(2,minmax(0,1fr))}.model-note-v4{display:block}.model-note-v4 .btn{margin-top:1rem}}
+    @media(max-width:640px){.model-cards-v4{grid-template-columns:1fr}.model-card-v4 dl div{display:grid;gap:.1rem}.model-card-v4 dd{text-align:left}}
+  </style>
+
 </head>
 <body>
   <a class="skip-link" href="#main">Saltar al contenido</a>
@@ -275,7 +294,7 @@
 
   <main id="main">
     <section class="hero" id="top">
-      <picture><img class="hero-bg" src="hero-fachada-bellavittoria.webp" alt="Fachada de BellaVittoria al atardecer, desarrollo residencial boutique en Lomas de la Victoria"></picture>
+      <picture><img class="hero-bg" src="hero-fachada-bellavittoria.webp?v=4" alt="Fachada de BellaVittoria al atardecer, desarrollo residencial boutique en Lomas de la Victoria"></picture>
       <div class="hero-overlay"></div>
       <div class="hero-inner container">
         <div class="hero-copy reveal">
@@ -311,7 +330,7 @@
         <p>BellaVittoria ya está terminado. Puedes visitar el desarrollo, recorrer los espacios, revisar acabados, comparar ubicación y conocer las unidades disponibles antes de tomar una decisión.</p>
         <ul class="checks"><li>No compras solo sobre render: puedes visitarlo.</li><li>No esperas años de preventa: entrega inmediata sujeta a proceso.</li><li>Comparas con claridad: ubicación, accesos, amenidades y estacionamiento.</li><li>Recibes información vigente por WhatsApp: disponibilidad, ficha y pasos de compra.</li></ul>
       </div>
-      <div class="image-stack reveal"><img src="interior-sala-cocina-bellavittoria.webp" alt="Sala comedor y cocina de departamento BellaVittoria"><img src="recamara-principal-vestidor-bellavittoria.webp" alt="Recámara principal con vestidor en BellaVittoria"></div>
+      <div class="image-stack reveal"><img src="interior-sala-cocina-bellavittoria.webp?v=4" alt="Sala comedor y cocina de departamento BellaVittoria"><img src="recamara-principal-vestidor-bellavittoria.webp?v=4" alt="Recámara principal con vestidor en BellaVittoria"></div>
     </section>
 
     <section id="promo" class="section dark">
@@ -340,26 +359,113 @@
         </div>
 
         <div class="master-card reveal">
-          <img src="master-plan-bellavittoria.webp" alt="Master plan general de BellaVittoria con torres, estacionamiento y ubicación de modelos">
+          <img src="master-plan-bellavittoria.webp?v=4" alt="Master plan general de BellaVittoria con torres, estacionamiento y ubicación de modelos">
         </div>
 
-        <div class="model-table reveal" aria-label="Modelos de departamentos BellaVittoria">
-          <div class="model-row model-head"><span>Modelo</span><span>Superficie</span><span>Torre</span><span>Ficha</span></div>
-          <div class="model-row"><span><b>Venus</b></span><span>73 m²</span><span>Marte 100</span><a href="modelo-venus-bellavittoria.webp" target="_blank" rel="noopener">Ver plano</a></div>
-          <div class="model-row"><span><b>Diana</b></span><span>73 m²</span><span>Marte 100</span><a href="modelo-diana-bellavittoria.webp" target="_blank" rel="noopener">Ver plano</a></div>
-          <div class="model-row"><span><b>Dolce</b></span><span>72 m²</span><span>Befana 200</span><a href="modelo-dolce-bellavittoria.webp" target="_blank" rel="noopener">Ver plano</a></div>
-          <div class="model-row"><span><b>Magia</b></span><span>72 m²</span><span>Befana 200</span><a href="modelo-magia-bellavittoria.webp" target="_blank" rel="noopener">Ver plano</a></div>
-          <div class="model-row"><span><b>Ager</b></span><span>72 m²</span><span>Ceres 300</span><a href="modelo-ager-bellavittoria.webp" target="_blank" rel="noopener">Ver plano</a></div>
-          <div class="model-row"><span><b>Flora</b></span><span>78 m²</span><span>Ceres 300</span><a href="modelo-flora-bellavittoria.webp" target="_blank" rel="noopener">Ver plano</a></div>
-          <div class="model-row"><span><b>Artemisa</b></span><span>72 m²</span><span>Apolo 400</span><a href="modelo-artemisa-bellavittoria.webp" target="_blank" rel="noopener">Ver plano</a></div>
-          <div class="model-row"><span><b>Dafne</b></span><span>72 m²</span><span>Apolo 400</span><a href="modelo-dafne-bellavittoria.webp" target="_blank" rel="noopener">Ver plano</a></div>
-        </div>
+        
+        <div class="model-cards-v4 reveal" aria-label="Modelos de departamentos BellaVittoria">
 
-        <div class="model-note reveal">
-          <div>
-            <b>¿Quieres saber cuál aplica a la promoción?</b>
-            <p>Regístrate para recibir disponibilidad vigente de las unidades seleccionadas del 3er nivel desde $2,950,000 MXN.</p>
-          </div>
+          <article class="model-card-v4">
+            <div>
+              <span class="model-kicker-v4">Modelo</span>
+              <h3>Venus</h3>
+            </div>
+            <dl>
+              <div><dt>Superficie</dt><dd>73 m²</dd></div>
+              <div><dt>Torre</dt><dd>Marte 100</dd></div>
+              <div><dt>Distribución</dt><dd>2 recámaras · 2 baños</dd></div>
+            </dl>
+            <a class="btn btn-outline model-link-v4" href="modelo-venus-bellavittoria.webp?v=4" target="_blank" rel="noopener">Abrir plano grande</a>
+          </article>
+          <article class="model-card-v4">
+            <div>
+              <span class="model-kicker-v4">Modelo</span>
+              <h3>Diana</h3>
+            </div>
+            <dl>
+              <div><dt>Superficie</dt><dd>73 m²</dd></div>
+              <div><dt>Torre</dt><dd>Marte 100</dd></div>
+              <div><dt>Distribución</dt><dd>2 recámaras · 2 baños</dd></div>
+            </dl>
+            <a class="btn btn-outline model-link-v4" href="modelo-diana-bellavittoria.webp?v=4" target="_blank" rel="noopener">Abrir plano grande</a>
+          </article>
+          <article class="model-card-v4">
+            <div>
+              <span class="model-kicker-v4">Modelo</span>
+              <h3>Dolce</h3>
+            </div>
+            <dl>
+              <div><dt>Superficie</dt><dd>72 m²</dd></div>
+              <div><dt>Torre</dt><dd>Befana 200</dd></div>
+              <div><dt>Distribución</dt><dd>2 recámaras · 2 baños</dd></div>
+            </dl>
+            <a class="btn btn-outline model-link-v4" href="modelo-dolce-bellavittoria.webp?v=4" target="_blank" rel="noopener">Abrir plano grande</a>
+          </article>
+          <article class="model-card-v4">
+            <div>
+              <span class="model-kicker-v4">Modelo</span>
+              <h3>Magia</h3>
+            </div>
+            <dl>
+              <div><dt>Superficie</dt><dd>72 m²</dd></div>
+              <div><dt>Torre</dt><dd>Befana 200</dd></div>
+              <div><dt>Distribución</dt><dd>2 recámaras · 2 baños</dd></div>
+            </dl>
+            <a class="btn btn-outline model-link-v4" href="modelo-magia-bellavittoria.webp?v=4" target="_blank" rel="noopener">Abrir plano grande</a>
+          </article>
+          <article class="model-card-v4">
+            <div>
+              <span class="model-kicker-v4">Modelo</span>
+              <h3>Ager</h3>
+            </div>
+            <dl>
+              <div><dt>Superficie</dt><dd>72 m²</dd></div>
+              <div><dt>Torre</dt><dd>Ceres 300</dd></div>
+              <div><dt>Distribución</dt><dd>2 recámaras · 2 baños</dd></div>
+            </dl>
+            <a class="btn btn-outline model-link-v4" href="modelo-ager-bellavittoria.webp?v=4" target="_blank" rel="noopener">Abrir plano grande</a>
+          </article>
+          <article class="model-card-v4">
+            <div>
+              <span class="model-kicker-v4">Modelo</span>
+              <h3>Flora</h3>
+            </div>
+            <dl>
+              <div><dt>Superficie</dt><dd>78 m²</dd></div>
+              <div><dt>Torre</dt><dd>Ceres 300</dd></div>
+              <div><dt>Distribución</dt><dd>2 recámaras · 2 baños</dd></div>
+            </dl>
+            <a class="btn btn-outline model-link-v4" href="modelo-flora-bellavittoria.webp?v=4" target="_blank" rel="noopener">Abrir plano grande</a>
+          </article>
+          <article class="model-card-v4">
+            <div>
+              <span class="model-kicker-v4">Modelo</span>
+              <h3>Artemisa</h3>
+            </div>
+            <dl>
+              <div><dt>Superficie</dt><dd>72 m²</dd></div>
+              <div><dt>Torre</dt><dd>Apolo 400</dd></div>
+              <div><dt>Distribución</dt><dd>2 recámaras · 2 baños</dd></div>
+            </dl>
+            <a class="btn btn-outline model-link-v4" href="modelo-artemisa-bellavittoria.webp?v=4" target="_blank" rel="noopener">Abrir plano grande</a>
+          </article>
+          <article class="model-card-v4">
+            <div>
+              <span class="model-kicker-v4">Modelo</span>
+              <h3>Dafne</h3>
+            </div>
+            <dl>
+              <div><dt>Superficie</dt><dd>72 m²</dd></div>
+              <div><dt>Torre</dt><dd>Apolo 400</dd></div>
+              <div><dt>Distribución</dt><dd>2 recámaras · 2 baños</dd></div>
+            </dl>
+            <a class="btn btn-outline model-link-v4" href="modelo-dafne-bellavittoria.webp?v=4" target="_blank" rel="noopener">Abrir plano grande</a>
+          </article>
+        </div>
+        <div class="model-note reveal model-note-v4">
+          <div><b>¿Quieres saber cuál aplica a la promoción?</b><p>Regístrate para recibir disponibilidad vigente de las unidades seleccionadas del 3er nivel desde $2,950,000 MXN.</p></div>
+          <a class="btn btn-gold" href="#lead-gate">Recibir condiciones</a>
+        </div>
           <a class="btn btn-gold" href="#lead-gate">Recibir condiciones</a>
         </div>
       </div>
@@ -368,23 +474,23 @@
     <section id="amenidades" class="section container">
       <div class="section-heading reveal">
         <span class="eyebrow">Amenidades reales</span>
-        <h2>Espacios para vivir, recibir y convivir.</h2>
+        <h2>Espacios que agregan vida, no solo metros.</h2>
         <p>Más que agregar metros, BellaVittoria ofrece espacios comunes útiles para la vida diaria: acceso, espera, convivencia y seguridad.</p>
       </div>
-      <div class="amenity-grid">
+      <div class="amenity-grid amenity-grid-v4">
         <article class="amenity reveal">
-          <img src="lobby-bellavittoria.webp" alt="Lobby y recepción de BellaVittoria">
+          <img src="lobby-bellavittoria.webp?v=4" alt="Lobby y recepción de BellaVittoria">
           <h3>Lobby y recepción</h3>
           <p>Un acceso cuidado para recibir visitas, esperar con comodidad y vivir una experiencia residencial boutique.</p>
         </article>
         <article class="amenity reveal">
-          <img src="roof-garden-bellavittoria.webp" alt="Roof garden y terraza social en BellaVittoria">
+          <img src="roof-garden-bellavittoria.webp?v=4" alt="Roof garden y terraza social en BellaVittoria">
           <h3>Roof garden</h3>
-          <p>Terraza social y área de convivencia para disfrutar reuniones, asadores y momentos al aire libre.</p>
+          <p>Terraza social y asadores para convivir sin salir de casa.</p>
         </article>
         <article class="amenity reveal">
-          <img src="acceso-seguridad-estacionamiento-bellavittoria.webp" alt="Acceso controlado, seguridad y estacionamiento en BellaVittoria">
-          <h3>Acceso y estacionamiento</h3>
+          <img src="acceso-seguridad-estacionamiento-bellavittoria.webp?v=4" alt="Acceso controlado, seguridad y estacionamiento en BellaVittoria">
+          <h3>Seguridad y estacionamiento</h3>
           <p>Control de acceso, estacionamiento y áreas comunes funcionales para una operación diaria más segura y ordenada.</p>
         </article>
       </div>
@@ -443,6 +549,6 @@
 
   <a class="floating-wa" target="_blank" rel="noopener" href="https://wa.me/523333777337?text=Hola%2C%20quiero%20informaci%C3%B3n%20de%20BellaVittoria.">WhatsApp</a>
   <footer class="footer"><div class="container footer-grid"><div><b>BellaVittoria</b><p>Departamentos nuevos dentro de periférico.</p></div><div><b>Contacto</b><p>WhatsApp información: 3333 777 337<br>Atención directa: 3344 441 444<br>javier.mendoza@acierta.com.mx</p></div><div><b>Dirección</b><p>Cobre 4232, Lomas de la Victoria, San Pedro Tlaquepaque, Jalisco.</p></div></div><div class="container legal"><p>Precios, promociones, disponibilidad, superficies, medidas, modelos, cajones de estacionamiento, características, acabados, equipamiento, imágenes, renders y condiciones comerciales sujetos a cambio sin previo aviso. Las imágenes son indicativas y pueden corresponder a representaciones gráficas, renders, ambientaciones o fotografías del desarrollo. Consulta disponibilidad, condiciones vigentes y documentación aplicable con tu asesor. La información no constituye oferta vinculante.</p></div></footer>
-  <script src="script.js"></script>
+  <script src="script.js?v=4"></script>
 </body>
 </html>
